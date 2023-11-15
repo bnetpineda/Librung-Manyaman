@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+  box-sizing: border-box;
+}
+.flex-container {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  outline: 2px solid white;
+  margin: 2px;
+}
+.flex-box {
+  width: 75px;
+  height: 75px;
+  background: linear-gradient(purple, red);
+  color: white;
+  font-size: 22.5px;
+  text-align: center;
+  line-height: 75px;
+  box-sizing: border-box;
+  border: 2px solid black;
+}
+body {
+  background-color: bisque;
+  display: flex;
+  min-height: 100vh;
+  margin: 0;
+  justify-content: center;
+  align-items: flex-end;
+}
